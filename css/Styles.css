@@ -1,0 +1,96 @@
+body{
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container{
+width: 100%;
+max-width: 1170px;
+margin: 0 auto;
+}
+#Acc{
+  background: #F6F7F8;
+  padding-bottom: 50px;
+}
+.MyAcc{
+	padding-top: 20px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+}
+.MyAcc h2{
+	color: black;
+	padding-bottom: 20px;
+}
+table {
+	width: 100%;
+	font-family: sans-serif;
+	border-collapse: separate;
+	border-spacing: 1px;
+	background: black;
+	color: black;
+}
+th{
+	font-size: 18px;
+	padding: 10px;
+}
+td{
+	background: #fff;
+	padding: 10px 0px;
+}
+.btns{
+	display: flex;
+	justify-content: space-around;
+}
+.replenish{
+	display: flex;
+	width: 300px;
+	height: 50px;
+	margin-top: 30px;
+	background: #01ACB6;
+	border: 2px solid black;
+}
+.replenish a{
+	padding: 10px 65px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.replenish:hover{
+	background: #283545;
+	color: #F4AD03;
+}
+.replenish a:hover{
+	color: #F4AD03;
+}
+@media screen and (max-width: 768px){
+	.replenish{
+		height: 70px;
+	}
+}
+.replenish2{
+	display: flex;
+	width: 300px;
+	height: 50px;
+	margin-top: 30px;
+	background: #79C1C4;
+	border: 2px solid black;
+}
+.replenish2 a{
+	padding: 10px 65px;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.replenish2:hover{
+	background: #283545;
+	color: #F4AD03;
+}
+.replenish2 a:hover{
+	color: #F4AD03;
+}
+@media screen and (max-width: 768px){
+	.replenish2{
+		height: 70px;
+	}
+}
